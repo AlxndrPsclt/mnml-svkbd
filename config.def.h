@@ -8,6 +8,6 @@ static const char *fonts[] = {
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#d8dee9", "#2e3440" },
-	[SchemePress] = { "#ffffff", "#000000" },
-	[SchemeHighlight] = { "#4c566a", "#81a1c1" },
+	[SchemePress] = { "#4c566a", "#81a1c1" },
+	[SchemeHighlight] = { "#d8dee9", "#3b4252" },
 };
