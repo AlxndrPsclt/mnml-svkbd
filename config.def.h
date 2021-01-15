@@ -1,6 +1,6 @@
 static const Bool wmborder = False;
 static int fontsize = 28;
-static double overlay_delay = 0.75;
+static double overlay_delay = 0.1;
 static int heightfactor = 12; //one row of keys takes up 1/x of the screen height
 static const char *fonts[] = {
 	"Iosevka Nerd Font Mono:bold:size=28"
