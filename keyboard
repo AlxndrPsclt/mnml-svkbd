@@ -1,5 +1,0 @@
-#!/usr/bin/env sh
-
-bspc config bottom_padding 480
-svkbd-mobile-intl
-bspc config bottom_padding 0

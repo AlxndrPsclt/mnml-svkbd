@@ -81,6 +81,8 @@ dkms.conf
 
 # Built binary
 svkbd-mobile-intl
+svkbd-mobile-mnml
+svkbd-*
 # Generated
 config.h
 

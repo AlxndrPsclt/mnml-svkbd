@@ -1,4 +1,4 @@
-LAYOUT = mobile-intl
+LAYOUT = mobile-mnml
 
 # paths
 PREFIX = /usr/local

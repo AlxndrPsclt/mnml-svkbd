@@ -4,6 +4,7 @@
 
 NAME = svkbd
 VERSION = 0.2.2
+LAYOUT = mobile-mnml
 
 include config.mk
 
