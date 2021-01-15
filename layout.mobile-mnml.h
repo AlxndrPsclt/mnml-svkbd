@@ -156,7 +156,7 @@ static Key keys_symbols[41] = {
   { "⇥", XK_End, 1 },
   { "⇊", XK_Next, 1 },
   { "⇈", XK_Prior, 1 },
-  { "⇍ Bksp", XK_BackSpace, 2 },
+  { "BCK", XK_BackSpace, 2 },
 
   { 0 }, /* New row */
 
@@ -169,6 +169,39 @@ static Key keys_symbols[41] = {
   /*{ "Alt", XK_Alt_L, 1 },*/
   { "↲ Enter", XK_Return, 2 },
 };
+
+
+
+
+static Key keys_dial[19] = {
+  { "1!", XK_1, 1 },
+  { "2@", XK_2, 1 },
+  { "3#", XK_3, 1 },
+  { "BCK", XK_BackSpace, 1 },
+
+  { 0 }, /* New row */
+
+  { "4$", XK_4, 1 },
+  { "5%", XK_5, 1 },
+  { "6^", XK_6, 1 },
+  { "=+", XK_plus, 1 },
+
+  { 0 }, /* New row */
+
+  { "7&", XK_7, 1 },
+  { "8*", XK_8, 1 },
+  { "9(", XK_9, 1 },
+  { "SFT", XK_Shift_L|XK_bar, 1 },
+
+  { 0 }, /* New row */
+
+  { "⇿", XK_Cancel, 1},
+  { "0)", XK_0, 1 },
+  { "ENTR", XK_Return, 2 },
+};
+
+
+
 
 Buttonmod buttonmods[] = {
         { XK_Shift_L, Button2 },
@@ -403,15 +436,17 @@ static Key overlay[OVERLAYS] = {
         { 0, XK_Cancel }, /* XK_Cancel signifies  overlay boundary */
 };
 
-#define LAYERS 3
+#define LAYERS 4
 static char* layer_names[LAYERS] = {
     "en",
     "en_min",
     "symbols",
+    "dial",
 };
 
 static Key* available_layers[LAYERS] = {
     keys_en,
     keys_en_min,
     keys_symbols,
+    keys_dial,
 };
